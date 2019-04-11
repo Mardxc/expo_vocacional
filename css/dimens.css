@@ -1,0 +1,65 @@
+@media (min-width : 320px) and (max-width : 480px){
+	body header nav{
+		margin-top::10%;
+		display: none;
+	}
+	body header nav span,img{
+		display: none;
+	}
+	body header nav a{
+		width: 100%;
+		text-align: center;
+	}
+	
+	body header .menu_bar{
+		background: #233142;
+		border-radius: 5px;
+		display: block;
+		position: fixed;
+		width: 100%;
+		z-index: 100000000;
+	}
+	body header .menu_bar:hover{
+		cursor: pointer;		
+	}
+
+	body header .menu_bar .bt-menu{
+		background: #233142;
+		box-sizing:border-box;
+		color: #fff;
+		display: block;
+		font-size: 1em;
+		margin-left: 50%;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+	body header .menu_bar .fa{
+		float: left;
+	}
+	body .info h3{
+		font-size: 1.5em;
+	}
+	body .portion h2{
+		font-size: 2em;
+	}
+	body .info form{
+		font-size: 1em;
+		width: 125%;
+	}
+	#seccion_uno{
+		height: 1600px;
+		width: 99%;
+	}
+	#seccion_uno .note{
+		margin: 1% 10%;
+		position: relative;
+		width: 80%;
+	}
+	#seccion_uno .note .tittle_note{
+		width: 100%;
+	}
+	#jssor_1{
+		display: none;
+	}
+}
